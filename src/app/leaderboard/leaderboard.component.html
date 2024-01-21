@@ -1,0 +1,173 @@
+<app-navbar active="leaderboard" />
+    <div class="p-4 sm:ml-64">
+        <div class="p-4  rounded-lg dark:border-gray-700 mt-14">
+            <div class="overflow-x-auto">
+                <div class="inline-block min-w-full align-middle">
+                    <div class="py-4 text-base font-semibold text-gray-900 dark:text-gray-300">Top 5 Players
+                    </div>
+                    <div class="overflow-hidden shadow rounded">
+                        <table class="w-11/12 divide-y divide-gray-200 table-fixed dark:divide-gray-600">
+                            <thead class="bg-gray-100 dark:bg-gray-700">
+                                <tr>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Name
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Level
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Coins
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                     XP
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Character
+                                       </th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+
+                                <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center"> Vipanchi
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">4</td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center mr-4">
+                                            <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                            <h5 class="text-lg ml-2  text-white font-semibold">45</h5>
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">1300</h5>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center">
+                                            <img class="character-img" src='{{ "assets/images/mage.png" }}' />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center"> MrGeraffe
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">2</td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center mr-4">
+                                            <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                            <h5 class="text-lg ml-2  text-white font-semibold">20</h5>
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">200</h5>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center">
+                                            <img class="character-img" src='{{ "assets/images/mage.png" }}' />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 overflow-x-auto">
+                <div class="inline-block min-w-full align-middle">
+                    <div class="py-4 text-base font-semibold text-gray-900 dark:text-gray-300">Top 5 Clans
+                    </div>
+                    <div class="overflow-hidden shadow rounded">
+                        <table class="w-11/12 divide-y divide-gray-200 table-fixed dark:divide-gray-600">
+                            <thead class="bg-gray-100 dark:bg-gray-700">
+                                <tr>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Name
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Level
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Coins
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                     XP
+                                    </th>
+                                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                        Clan
+                                       </th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+
+                                <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center"> Challengers
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">5</td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center mr-4">
+                                            <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                            <h5 class="text-lg ml-2  text-white font-semibold">450</h5>
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">1800</h5>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="p-8 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex justify-center w-8 items-center">
+                                            <img style="transform: scale(1.75);" class="character-img" src='{{ "assets/images/clan12.png" }}' />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center"> Super Kings
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">3</td>
+                                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center mr-4">
+                                            <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                            <h5 class="text-lg ml-2  text-white font-semibold">220</h5>
+                                        </div>
+                                    </td>
+                                    <td class="p-4 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex items-center">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">2000</h5>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="p-8 text-base font-normal text-gray-900 whitespace-nowrap dark:text-white">
+                                        <div class="flex justify-center w-8 items-center">
+                                            <img style="transform: scale(1.75);" class="character-img" src='{{ "assets/images/clan8.png" }}' />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>

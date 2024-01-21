@@ -1,0 +1,300 @@
+<app-navbar active="challenges" />
+<div class="p-4 sm:ml-64">
+    <div class="p-4  rounded-lg dark:border-gray-700 mt-14">
+        <div class="overflow-x-auto">
+            <div class="inline-block min-w-full align-middle">
+                <div class="overflow-hidden shadow">
+                    <div class="flex justify-start items-start px-4 mb-6 space-x-4">
+                        <div class="min-w-kanban">
+                            <div class="py-4 text-base font-semibold text-gray-900 dark:text-gray-300">To Do
+                            </div>
+                            <div id="kanban-list-1" class="mb-4 space-y-4 min-w-kanban">
+                                <div
+                                    class="flex flex-col p-5 max-w-md bg-white rounded-lg shadow transform cursor-move dark:bg-gray-800">
+                                    <div class="flex justify-between items-center pb-4">
+                                        <div class="text-base font-semibold text-gray-900 dark:text-white">
+                                            Hydration Check</div>
+
+                                        <button type="button"
+                                            class="p-2 text-sm text-gray-500 rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700">
+                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                                                </path>
+                                                <path fill-rule="evenodd"
+                                                    d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+
+
+                                    <div class="flex flex-col">
+                                        <div
+                                            class="pb-4 text-sm font-normal text-gray-700 dark:text-gray-400">
+                                            Make a conscious effort to stay hydrated by setting reminders to drink water throughout the day. Proper hydration is essential for overall health and cognitive function.
+                                        </div>
+
+                                        <div class="flex justify-between">
+                                            <div class="flex gap-2">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">20</h5>
+                                            </div>
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">200</h5>
+                                            </div>
+                                        </div>
+                                            <div
+                                                class="flex justify-center items-center px-3 text-sm font-medium text-purple-800 bg-purple-100 rounded-lg dark:bg-purple-200">
+                                                <svg class="mr-1 w-4 h-4" fill="currentColor"
+                                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                                        clip-rule="evenodd"></path>
+                                                </svg>
+                                                5 days left
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="kanban-list-2" class="mb-4 space-y-4 min-w-kanban">
+                                <div
+                                    class="flex flex-col p-5 max-w-md bg-white rounded-lg shadow transform cursor-move dark:bg-gray-800">
+                                    <div class="flex justify-between items-center pb-4">
+                                        <div class="text-base font-semibold text-gray-900 dark:text-white">
+                                            Digital Detox</div>
+
+                                        <button type="button"
+                                            class="p-2 text-sm text-gray-500 rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700">
+                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                                                </path>
+                                                <path fill-rule="evenodd"
+                                                    d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+
+
+                                    <div class="flex flex-col">
+                                        <div
+                                            class="pb-4 text-sm font-normal text-gray-700 dark:text-gray-400">
+                                            Set aside dedicated time to disconnect from electronic devices, social media, and emails. This allows for mental relaxation and helps maintain a healthy work-life balance.
+                                        </div>
+
+                                        <div class="flex justify-between">
+                                            <div class="flex gap-2">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">20</h5>
+                                            </div>
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">200</h5>
+                                            </div>
+                                        </div>
+                                            <div
+                                                class="flex justify-center items-center px-3 text-sm font-medium text-purple-800 bg-purple-100 rounded-lg dark:bg-purple-200">
+                                                <svg class="mr-1 w-4 h-4" fill="currentColor"
+                                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                                        clip-rule="evenodd"></path>
+                                                </svg>
+                                                5 days left
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button [routerLink]="['/add-task']" type="button"
+                                class="flex justify-center items-center py-2 w-full font-semibold text-gray-500 rounded-lg border-2 border-gray-200 border-dashed hover:bg-gray-100 hover:text-gray-900 hover:border-gray-300 dark:border-gray-800 dark:hover:border-gray-700 dark:hover:bg-gray-800 dark:hover:text-white">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                Add another card
+                            </button>
+                        </div>
+                        <div class="min-w-kanban">
+                            <div class="py-4 text-base font-semibold text-gray-900 dark:text-gray-300">In Progress
+                            </div>
+                            <div id="kanban-list-3" class="mb-4 space-y-4 min-w-kanban">
+                                <div
+                                    class="flex flex-col p-5 max-w-md bg-white rounded-lg shadow transform cursor-move dark:bg-gray-800">
+                                    <div class="flex justify-between items-center pb-4">
+                                        <div class="text-base font-semibold text-gray-900 dark:text-white">
+                                            Evening Wind-Down</div>
+
+                                        <button type="button"
+                                            class="p-2 text-sm text-gray-500 rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700">
+                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                                                </path>
+                                                <path fill-rule="evenodd"
+                                                    d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+
+
+                                    <div class="flex flex-col">
+                                        <div
+                                            class="pb-4 text-sm font-normal text-gray-700 dark:text-gray-400">
+                                            Establish a calming evening routine to unwind before bedtime. This might include activities such as reading, practicing relaxation techniques, or limiting screen time.
+                                        </div>
+
+                                        <div class="flex justify-between">
+                                            <div class="flex gap-2">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">20</h5>
+                                            </div>
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">200</h5>
+                                            </div>
+                                        </div>
+                                            <div
+                                                class="flex justify-center items-center px-3 text-sm font-medium text-purple-800 bg-purple-100 rounded-lg dark:bg-purple-200">
+                                                <svg class="mr-1 w-4 h-4" fill="currentColor"
+                                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                                        clip-rule="evenodd"></path>
+                                                </svg>
+                                                1 day left
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-kanban">
+                            <div class="py-4 text-base font-semibold text-gray-900 dark:text-gray-300">Completed
+                            </div>
+                            <div id="kanban-list-4" class="mb-4 space-y-4 min-w-kanban">
+                                <div
+                                    class="flex flex-col p-5 max-w-md bg-white rounded-lg shadow transform cursor-move dark:bg-gray-800">
+                                    <div class="flex justify-between items-center pb-4">
+                                        <div class="text-base font-semibold text-gray-900 dark:text-white">
+                                            Quality Time with Loved Ones</div>
+
+                                        <button type="button"
+                                            class="p-2 text-sm text-gray-500 rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700">
+                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                                                </path>
+                                                <path fill-rule="evenodd"
+                                                    d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+
+
+                                    <div class="flex flex-col">
+                                        <div
+                                            class="pb-4 text-sm font-normal text-gray-700 dark:text-gray-400">
+                                            Schedule time each day to connect with family or friends, whether through a phone call, video chat, or in-person interaction. Building and maintaining relationships is crucial for emotional well-being.
+                                        </div>
+
+                                        <div class="flex justify-between">
+                                            <div class="flex gap-2">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">20</h5>
+                                            </div>
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold">200</h5>
+                                            </div>
+                                        </div>
+                                            <div
+                                                class="flex justify-center items-center px-3 text-sm font-medium text-purple-800 bg-purple-100 rounded-lg dark:bg-purple-200">
+                                                <svg class="mr-1 w-4 h-4" fill="currentColor"
+                                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                                        clip-rule="evenodd"></path>
+                                                </svg>
+                                                1 day left
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-kanban">
+                            <div class="py-4 text-base font-semibold text-gray-900 dark:text-gray-300">Failed
+                            </div>
+                            <div id="kanban-list-5" class="mb-4 space-y-4 min-w-kanban">
+                                <div
+                                    class="flex flex-col p-5 max-w-md bg-white rounded-lg shadow transform cursor-move dark:bg-gray-800">
+                                    <div class="flex justify-between items-center pb-4">
+                                        <div class="text-base font-semibold text-gray-900 dark:text-white">
+                                            Meal Planning</div>
+
+                                        <button type="button"
+                                            class="p-2 text-sm text-gray-500 rounded-lg dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700">
+                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                                                </path>
+                                                <path fill-rule="evenodd"
+                                                    d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <div
+                                            class="pb-4 text-sm font-normal text-gray-700 dark:text-gray-400">
+                                            Plan your meals for the day, ensuring a balanced and nutritious diet. This can help you make healthier food choices and avoid last-minute, less healthy options.
+                                        </div>
+
+                                        <div class="flex justify-between">
+                                            <div class="flex gap-2">
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + reward + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold"> - 20</h5>
+                                            </div>
+                                            <div class="flex items-center mr-4">
+                                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-5 w-5" />
+                                                <h5 class="text-lg ml-2  text-white font-semibold"> - 200</h5>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>

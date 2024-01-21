@@ -1,0 +1,184 @@
+<app-navbar active="dashboard" />
+<div class="p-4 sm:ml-64">
+    <div class="p-4  rounded-lg dark:border-gray-700 mt-14">
+        <div class="grid grid-cols-3 gap-4">
+            <div class="rounded-lg dark:border-gray-600 h-32 md:h-64">
+                <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+                    <div class="flex justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
+                        <div class="flex items-center">
+                            <div>
+                                <h5 class="leading-none text-2xl font-bold text-gray-900 dark:text-white pb-1">98%</h5>
+                                <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Tasks completed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height: 307px;">
+                        <div style="text-align:center">
+                            <apx-chart [colors]="chartOptions.colors" [series]="chartOptions.series"
+                                [chart]="chartOptions.chart" [plotOptions]="chartOptions.plotOptions"
+                                [tooltip]="chartOptions.tooltip" [states]="chartOptions.states"
+                                [stroke]="chartOptions.stroke" [grid]="chartOptions.grid"
+                                [dataLabels]="chartOptions.dataLabels" [legend]="chartOptions.legend"
+                                [xaxis]="chartOptions.xaxis" [yaxis]="chartOptions.yaxis" [fill]="chartOptions.fill"
+                                [title]="chartOptions.title"></apx-chart>
+                        </div>
+                    </div>
+                    <div
+                        class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+                        <div class="flex justify-between items-center pt-5">
+                            <button id="dropdownDefaultButton"
+                                class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white"
+                                type="button">
+                                Last 7 days
+                                <svg class="w-2.5 m-2.5 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-lg dark:border-gray-600 h-32 md:h-64">
+                <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+                    <div class="flex justify-between mb-3">
+                      <div class="flex items-center">
+                        <div class="flex justify-center items-center">
+                          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">Coins earned</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="height: 257px;">
+                        <div class="mt-28 ml-24 flex items-center mr-4">
+                            <img src='{{ "assets/images/" + reward + ".png" }}' class="h-20 w-20" />
+                            <h5 class="text-5xl ml-2  text-white font-semibold">12</h5>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+                      <div class="flex justify-between items-center pt-5">
+                        <!-- Button -->
+                        <button
+                          id="dropdownDefaultButton"
+                          class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white"
+                          type="button">
+                          Last 7 days
+                          <svg class="w-2.5 m-2.5 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="rounded-lg dark:border-gray-600 h-32 md:h-64">
+                <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+                    <div class="flex justify-between mb-3">
+                      <div class="flex items-center">
+                        <div class="flex justify-center items-center">
+                          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">Xp earned</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="height: 257px;">
+                        <div class="mt-28 ml-24 flex items-center mr-4">
+                            <img src='{{ "assets/images/" + xp + ".png" }}' class="h-20 w-20" />
+                            <h5 class="text-5xl ml-2  text-white font-semibold">900</h5>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+                      <div class="flex justify-between items-center pt-5">
+                        <!-- Button -->
+                        <button
+                          id="dropdownDefaultButton"
+                          class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white"
+                          type="button">
+                          Last 7 days
+                          <svg class="w-2.5 m-2.5 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="grid grid-cols-2 gap-4 mb-4">
+            <div class="rounded-lg dark:border-gray-600 h-32 md:h-64">
+                <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+                    <div class="flex justify-between mb-3">
+                      <div class="flex items-center">
+                        <div class="flex justify-center items-center">
+                          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">Your Character</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="height: 257px;">
+                        <div class="mt-28 ml-24 flex items-center justify-center mr-4">
+                            <img style="transform: scale(4);" src='{{ "assets/images/" + character2 + ".png" }}' class="h-20 w-20" />
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="rounded-lg dark:border-gray-600 h-32 md:h-64">
+                <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+                    <div class="flex justify-between mb-3">
+                      <div class="flex items-center">
+                        <div class="flex justify-center items-center">
+                          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">Total Stats</h5>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="height: 307px;">
+                        <div class="flex items-center h-full flex-col justify-center items-center gap-4">
+                            <div class="flex items-center mr-4">
+                                <img src='{{ "assets/images/" + health + ".png" }}' class="h-12 w-12" />
+                                <h5 class="text-lg ml-2  text-white font-semibold">100</h5>
+                            </div>
+                            <div class="flex items-center mr-4">
+                                <img src='{{ "assets/images/" + xp + ".png" }}' class="h-12 w-12"  />
+                                <h5 class="text-lg ml-2  text-white font-semibold">1200</h5>
+                            </div>
+                            <div class="flex items-center mr-4">
+                                <img src='{{ "assets/images/" + reward + ".png" }}' class="h-12 w-12"  />
+                                <h5 class="text-lg ml-2  text-white font-semibold">20</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+                      <div class="flex justify-between items-center pt-5">
+                        <!-- Button -->
+                        <button
+                          id="dropdownDefaultButton"
+                          class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white"
+                          type="button">
+                          Last 7 days
+                          <svg class="w-2.5 m-2.5 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
